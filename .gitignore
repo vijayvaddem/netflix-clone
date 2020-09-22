@@ -8,6 +8,10 @@
 # testing
 /coverage
 
+# asset files
+/public/images
+/public/videos
+
 # production
 /build
 
