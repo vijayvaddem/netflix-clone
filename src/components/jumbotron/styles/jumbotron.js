@@ -1,5 +1,13 @@
 import styled from "styled-components/macro";
 
+export const Item = styled.div`
+  display: flex;
+  border-bottom: 8px solid #222;
+  padding: 50px 5%;
+  color: white;
+  overflow: hidden;
+`;
+
 export const Inner = styled.div`
   display: flex;
   align-items: center;
@@ -7,7 +15,9 @@ export const Inner = styled.div`
   justify-content: space-between;
   max-width: 1100px;
   margin: auto;
-  width: 100% @media (max-width: 1000px) {
+  width: 100%;
+
+  @media (max-width: 1000px) {
     flex-direction: column;
   }
 `;
